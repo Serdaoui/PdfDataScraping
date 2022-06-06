@@ -338,7 +338,7 @@
               <ui:WriteCell Cell="[&quot;B&quot;+(counter+1).ToString]" DisplayName="Write Customer ID" sap:VirtualizedContainerService.HintSize="333.6,116" sap2010:WorkflowViewState.IdRef="WriteCell_2" SheetName="Sheet1" Text="[customerID]" WorkbookPath="ScrapedInvoiceData.xlsx" />
               <ui:WriteCell Cell="[&quot;C&quot;+(counter+1).ToString]" DisplayName="Write Invoice Number" sap:VirtualizedContainerService.HintSize="333.6,116" sap2010:WorkflowViewState.IdRef="WriteCell_4" SheetName="Sheet1" Text="[invoice]" WorkbookPath="ScrapedInvoiceData.xlsx" />
               <ui:WriteCell Cell="[&quot;D&quot;+(counter+1).ToString]" DisplayName="Write Total Amount" sap:VirtualizedContainerService.HintSize="333.6,116" sap2010:WorkflowViewState.IdRef="WriteCell_3" SheetName="Sheet1" Text="[Total]" WorkbookPath="ScrapedInvoiceData.xlsx" />
-              <ui:WriteCell Cell="[&quot;E&quot;+(counter+1).ToString]" DisplayName="Write the Date" sap:VirtualizedContainerService.HintSize="333.6,116" sap2010:WorkflowViewState.IdRef="WriteCell_5" SheetName="Sheet1" Text="[c_date]" WorkbookPath="ScrapedInvoiceData.xlsx" />
+              <ui:WriteCell Cell="[&quot;E&quot;+(counter+1).ToString]" DisplayName="Write the Date" sap:VirtualizedContainerService.HintSize="333.6,116" sap2010:WorkflowViewState.IdRef="WriteCell_6" SheetName="Sheet1" Text="[c_date]" WorkbookPath="ScrapedInvoiceData.xlsx" />
             </Sequence>
             <Assign sap:VirtualizedContainerService.HintSize="375.2,60" sap2010:WorkflowViewState.IdRef="Assign_2">
               <Assign.To>
